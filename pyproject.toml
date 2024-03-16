@@ -4,7 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Matej <matouhrin@gmail.com>"]
 readme = "README.md"
-packages = [{include = "src"}]
+packages = [
+       { include = "effective_polars", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
