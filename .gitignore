@@ -1,5 +1,10 @@
 # added
 .history
+.vscode
+experiments
+experiment-data
+cache
+book
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

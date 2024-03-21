@@ -11,6 +11,9 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.10"
 polars = "^0.20.15"
+ipykernel = "^6.29.3"
+pyarrow = "^15.0.1"
+pandas = "^2.2.1"
 
 
 [build-system]
